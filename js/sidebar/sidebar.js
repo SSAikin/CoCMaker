@@ -59,6 +59,7 @@
             document.getElementById("main").style.marginLeft = "50px";
             document.getElementById("side-button").classList.remove("ico-left");
             document.getElementById("side-button").classList.add("ico-right");
+            document.getElementsByClassName("logged")[0].classList.add("logged-close");
             this.hoverPlace.style.marginLeft = "50px";
             this.state = false
         }else {
@@ -66,6 +67,7 @@
             document.getElementById("main").style.marginLeft = "250px";
             document.getElementById("side-button").classList.add("ico-left");
             document.getElementById("side-button").classList.remove("ico-right");
+            document.getElementsByClassName("logged")[0].classList.remove("logged-close");
             this.hoverPlace.style.marginLeft = "250px";
             this.state = true
         }

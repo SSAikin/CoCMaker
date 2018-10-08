@@ -10,20 +10,11 @@
     </head>
     <body>
         <div id="mySidenav" class="sidenav">
-			<a class="item-nav" href="#">About</a>
-			<a class="item-nav" href="#">Services</a>
-			<a class="item-nav" href="#">Clients</a>
-			<div class="drop-down-group">
-				<a class="item-nav drop-down">Dropdown
-					<i class="ico-down ico-down-style"></i>
-				</a>
-				<ul class="drop-down-content">
-					<li class="item-nav drop-item" href="#">About   </li>
-					<li class="item-nav drop-item" href="#">Services</li>
-					<li class="item-nav drop-item" href="#">Clients </li>
-					<li class="item-nav drop-item" href="#">Clients </li>
-				</ul>
-			</div>
+            <div class="logged logged-close">
+                <div class="image ">
+                    <img src="images/lovecraft.jpg" alt="" class="wrap-image">
+                </div>
+            </div>
 		</div>
         <div class="for-hover-side" id="side-bar-open">
 			<button type="button" name="button" class="button-open-sidebar hide-button">
@@ -31,8 +22,10 @@
 			</button>
 		</div>
         <div class="main" id="main">
-            <div class="chat-messages">
-
+            <div class="chat-message">
+            </div>
+            <div class="chat-text">
+                <textarea name="name" class="chat-input top-to-bottom"></textarea>
             </div>
         </div>
         <script type="text/javascript" src="js/sidebar/sidebar.js"></script>

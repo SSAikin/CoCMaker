@@ -11,20 +11,21 @@ body {
     float: left;
     transition: margin-left .5s;
     margin-left: 50px;
+    z-index: 999999;
 }
 
 .button-open-sidebar {
     width: 20px;
     height: 40px;
-    background-color: var(--background-sidebar);
+    background-color: var(--base);
     border-bottom-right-radius: 100px;
     border-top-right-radius: 100px;
-    border: 0px solid var(--background-sidebar);
+    border: 0px solid var(--base);
     border-left: 0;
     text-align: center;
     padding-left: 0px;
     font-size: 14px;
-    color: var(--darker-grey);
+    color: var(--letter-color);
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -33,20 +34,21 @@ body {
     position: fixed;
     top: 40%;
     transition: .5s;
+    z-index: 999999;
 }
 
 .button-open-sidebar:hover {
-    color: var(--white)
+    color: var(--white);
 }
 
 .sidenav {
-    height: 100%; /* 100% Full-height */
+    height: 100vh; /* 100% Full-height */
     width: 50px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: var(--background-sidebar); /* Black*/
+    background-color: var(--base); /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -57,7 +59,7 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: var(--darker-grey);
+    color: var(--letter-color);
     display: block;
     transition: 0.3s;
     cursor: pointer;
@@ -69,7 +71,7 @@ body {
 
 .drop-down-content {
     margin: 0px;
-    margin-left: 20px;    
+    margin-left: 20px;
     padding: 0px;
     max-height: 0;
     transition: max-height 0.15s ease-out;
