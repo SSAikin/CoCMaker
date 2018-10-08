@@ -14,8 +14,14 @@
 	--dark-black: #111;
 	--not-so-black: #2b2a2a;
 	--medium-grey: #444343;
+	--background-sidebar: #1f1d29;
+	--chat-color-base: #2e333e;
 }
 
 .hide {
 	display: none;
+}
+
+body {
+	background-color: var(--black);
 }

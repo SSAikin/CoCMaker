@@ -55,11 +55,11 @@
 
     function controlNav() {
         if (this.state == true) {
-            this.navbar.style.width = "0";
-            document.getElementById("main").style.marginLeft = "0";
+            this.navbar.style.width = "50px";
+            document.getElementById("main").style.marginLeft = "50px";
             document.getElementById("side-button").classList.remove("ico-left");
             document.getElementById("side-button").classList.add("ico-right");
-            this.hoverPlace.style.marginLeft = "0";
+            this.hoverPlace.style.marginLeft = "50px";
             this.state = false
         }else {
             this.navbar.style.width = "250px";

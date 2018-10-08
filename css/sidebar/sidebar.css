@@ -1,5 +1,6 @@
 body {
-    margin-left: 0px;
+    margin: 0px;
+    overflow-x: hidden;
 }
 
 .for-hover-side {
@@ -9,15 +10,16 @@ body {
     height: 100vh;
     float: left;
     transition: margin-left .5s;
+    margin-left: 50px;
 }
 
 .button-open-sidebar {
     width: 20px;
     height: 40px;
-    background-color: var(--not-so-black);
+    background-color: var(--background-sidebar);
     border-bottom-right-radius: 100px;
     border-top-right-radius: 100px;
-    border: 0px solid var(--not-so-black);
+    border: 0px solid var(--background-sidebar);
     border-left: 0;
     text-align: center;
     padding-left: 0px;
@@ -39,15 +41,16 @@ body {
 
 .sidenav {
     height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
+    width: 50px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: var(--not-so-black); /* Black*/
+    background-color: var(--background-sidebar); /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    flex: auto;
 }
 
 .item-nav {
@@ -61,14 +64,13 @@ body {
 }
 
 .item-nav:hover {
-    background-color: var(--blacker);
     color: var(--white);
 }
 
 .drop-down-content {
     margin: 0px;
+    margin-left: 20px;    
     padding: 0px;
-    background-color: var(--medium-grey);
     max-height: 0;
     transition: max-height 0.15s ease-out;
     overflow: hidden;
@@ -90,7 +92,11 @@ body {
 
 .main {
     transition: margin-left .5s;
-    padding: 22px;
+    margin-left: 50px;
+    right: 0px;
+    overflow-x: hidden;
+    flex: auto;
+    height: 100vh;
 }
 
 .hide-button {
