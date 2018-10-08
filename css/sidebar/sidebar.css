@@ -1,0 +1,106 @@
+body {
+    margin-left: 0px;
+}
+
+.for-hover-side {
+    position: fixed;
+    display: inline-block;
+    width: 20px;
+    height: 100vh;
+    float: left;
+    transition: margin-left .5s;
+}
+
+.button-open-sidebar {
+    width: 20px;
+    height: 40px;
+    background-color: var(--not-so-black);
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    border: 0px solid var(--not-so-black);
+    border-left: 0;
+    text-align: center;
+    padding-left: 0px;
+    font-size: 14px;
+    color: var(--darker-grey);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    float: left;
+    position: fixed;
+    top: 40%;
+    transition: .5s;
+}
+
+.button-open-sidebar:hover {
+    color: var(--white)
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: var(--not-so-black); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.item-nav {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--darker-grey);
+    display: block;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.item-nav:hover {
+    background-color: var(--blacker);
+    color: var(--white);
+}
+
+.drop-down-content {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--medium-grey);
+    max-height: 0;
+    transition: max-height 0.15s ease-out;
+    overflow: hidden;
+}
+
+.drop-down-content.drop-open {
+    max-height: 500px;
+    transition: max-height 0.25s ease-in;
+}
+
+.drop-item {
+    font-size: 16px;
+}
+
+.ico-down-style {
+    vertical-align: bottom;
+    float: right;
+}
+
+.main {
+    transition: margin-left .5s;
+    padding: 22px;
+}
+
+.hide-button {
+    width: 0px;
+    padding: 0px;
+    margin: 0px;
+    content: "";
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
