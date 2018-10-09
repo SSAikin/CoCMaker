@@ -43,38 +43,60 @@ body {
 
 .sidenav {
     height: 100vh; /* 100% Full-height */
-    width: 50px; /* 0 width - change this with JavaScript */
+    width: 55px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
     background-color: var(--base); /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
+    padding-top: 10px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     flex: auto;
 }
 
 .item-nav {
-    padding: 8px 8px 8px 32px;
+    padding: 5px 5px 0px 5px;
+    margin-bottom: 15px;
     text-decoration: none;
     font-size: 25px;
     color: var(--letter-color);
-    display: block;
     transition: 0.3s;
     cursor: pointer;
+    overflow: hidden;
+    max-height: 45px;
 }
 
-.item-nav:hover {
+.item-nav > a {
+    overflow: hidden;
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--letter-color);
+    position: relative;
+    bottom: -10px;
+    margin-left: 20px;
+}
+
+div.item-nav:hover, div.item-nav:hover span, div.item-nav:hover a, a.item-nav:hover {
     color: var(--white);
+}
+
+.drop-down-content > .item-nav {
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.drop-down.item-nav {
+    margin-bottom: 10px;
 }
 
 .drop-down-content {
     margin: 0px;
-    margin-left: 20px;
+    padding-left: 15px;
     padding: 0px;
     max-height: 0;
     transition: max-height 0.15s ease-out;
+    background-color: var(--grey-2);
     overflow: hidden;
 }
 
@@ -88,13 +110,14 @@ body {
 }
 
 .ico-down-style {
-    vertical-align: bottom;
+    position: relative;
+    bottom: -10px;
     float: right;
 }
 
 .main {
     transition: margin-left .5s;
-    margin-left: 50px;
+    margin-left: 55px;
     right: 0px;
     overflow-x: hidden;
     flex: auto;

@@ -55,12 +55,12 @@
 
     function controlNav() {
         if (this.state == true) {
-            this.navbar.style.width = "50px";
-            document.getElementById("main").style.marginLeft = "50px";
+            this.navbar.style.width = "55px";
+            document.getElementById("main").style.marginLeft = "55px";
             document.getElementById("side-button").classList.remove("ico-left");
             document.getElementById("side-button").classList.add("ico-right");
             document.getElementsByClassName("logged")[0].classList.add("logged-close");
-            this.hoverPlace.style.marginLeft = "50px";
+            this.hoverPlace.style.marginLeft = "55px";
             this.state = false
         }else {
             this.navbar.style.width = "250px";
