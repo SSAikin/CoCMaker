@@ -5,7 +5,9 @@
         <title>Call of Cthullo</title>
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/sidebar/sidebar.css">
+        <link rel="stylesheet" href="css/sidebar/perfil.css">
         <link rel="stylesheet" href="css/chat/chat.css">
+        <link rel="stylesheet" href="css/chat/messages.css">
         <link rel="stylesheet" href="css/icons/ico.css">
     </head>
     <body>
@@ -14,26 +16,45 @@
                 <span class="ico-settings"></span>
                 <a href="#" class="">Settings</a>
             </div>
-            <div class="item-nav drop-down">
-                <span class="ico-book selected"></span>
-				<a href="#">Campanha 1<i class="ico-down ico-down-style"></i></a>
-			</div>
-            <ul class="drop-down-content">
-                <div class="item-nav inline">
-                    <span class="ico-chat"></span>
-                    <a href="#" class="">Chat</a>
-                </div>
-                <div class="item-nav inline">
-                    <span class="ico-sheet"></span>
-                    <a href="#" class="">Campaigns</a>
-                </div>
-            </ul>
+            <div>
 
+                <div class="item-nav drop-down ">
+                    <span class="ico-book"></span>
+    				<a href="#">Campanha 1<i class="ico-down ico-down-style"></i></a>
+    			</div>
+                <ul class="drop-down-content">
+                    <div class="item-nav inline">
+                        <span class="ico-chat"></span>
+                        <a href="#" class="">Chat</a>
+                    </div>
+                    <div class="item-nav inline selected">
+                        <span class="ico-sheet"></span>
+                        <a href="#" class="">Campaigns</a>
+                    </div>
+                </ul>
+            </div>
+            <div class="">
+                <div class="item-nav drop-down selected">
+                    <span class="ico-book"></span>
+    				<a href="#">Campanha 2<i class="ico-down ico-down-style"></i></a>
+    			</div>
+                <ul class="drop-down-content">
+                    <div class="item-nav inline">
+                        <span class="ico-chat"></span>
+                        <a href="#" class="">Chat</a>
+                    </div>
+                    <div class="item-nav inline">
+                        <span class="ico-sheet"></span>
+                        <a href="#" class="">Campaigns</a>
+                    </div>
+                </ul>
+            </div>
 
             <div class="logged logged-close">
                 <div class="image ">
                     <img src="images/lovecraft.jpg" alt="" class="wrap-image">
                 </div>
+                <span class="btn-connect"> <a href="#" >Connect</a> </span>
             </div>
 		</div>
         <div class="for-hover-side" id="side-bar-open">
@@ -43,9 +64,42 @@
 		</div>
         <div class="main" id="main">
             <div class="chat-message">
+                <div class="messages">
+
+                    <div class="message">
+                        <div class="image ">
+                            <img src="images/lovecraft.jpg" alt="" class="wrap-image">
+                        </div>
+                        <p>asdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdasasdasdasdas</p>
+                    </div>
+                    <div class="message">
+                        <div class="image ">
+                            <img src="images/lovecraft.jpg" alt="" class="wrap-image">
+                        </div>
+                        <p>asdasdasdasasdasdasdas</p>
+                    </div>
+                    <div class="message">
+                        <div class="image ">
+                            <img src="images/lovecraft.jpg" alt="" class="wrap-image">
+                        </div>
+                        <p>asdasdasdasasdasdasdas</p>
+                    </div>
+                    <div class="message">
+                        <div class="image ">
+                            <img src="images/lovecraft.jpg" alt="" class="wrap-image">
+                        </div>
+                        <p>ta subindo</p>
+                    </div>
+                    <div class="message">
+                        <div class="image ">
+                            <img src="images/lovecraft.jpg" alt="" class="wrap-image">
+                        </div>
+                        <p>aee</p>
+                    </div>
+                </div>
             </div>
             <div class="chat-text">
-                <textarea name="name" class="chat-input top-to-bottom"></textarea>
+                <textarea name="name" class="chat-input"></textarea>
             </div>
         </div>
         <script type="text/javascript" src="js/sidebar/sidebar.js"></script>

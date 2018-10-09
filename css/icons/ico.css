@@ -55,27 +55,13 @@
 .ico-chat:after {
   content: "\66";
   position: relative;
-  bottom: -2px;
-}
-
-.ico-chat, .ico-sheet, .ico-settings, .ico-book {
-    display: block;
-    float: left;
-    padding: 5px 5px 5px 5px;
-    width: 35px;
-    height: 35px;
-    border-radius: 5rem;
-    text-align: center;
-}
-
-.ico-chat.selected, .ico-sheet.selected, .ico-settings.selected, .ico-book.selected {
-    background-color: var(--grey-2);
+  bottom: -4px;
 }
 
 .ico-sheet:after {
   content: "\65";
   position: relative;
-  bottom: -2px;
+  bottom: -6px;
 }
 .ico-settings:after {
   content: "\67";

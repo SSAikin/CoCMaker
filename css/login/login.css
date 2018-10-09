@@ -1,0 +1,9 @@
+.login-box {
+    background-color: var(--grey-2);
+    width:  500px;
+    height: 450px;
+    position: absolute;
+    top: 25%;
+    right: 15%;
+    border-radius: .5rem;
+}
