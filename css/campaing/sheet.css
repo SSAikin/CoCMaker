@@ -1,0 +1,45 @@
+.campaing-content {
+    height: 95%;
+    transition: 0.5s;
+}
+
+.new-sheet {
+    width: 98%;
+    height: 6%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: var(--grey-2);
+    color: var(--letter-color);
+    border-radius: .5rem;
+    font-size: 20px;
+}
+
+.new-sheet > p {
+    margin: 0px;
+    padding-top: 0.8%;
+    padding-left: 20px;
+}
+
+.new-sheet:hover, .new-sheet:hover .new-sheet > p {
+    color: var(--white);
+    cursor: pointer;
+}
+.sheet-resume {
+    height: 91%;
+    width: 0;
+    position: fixed;
+    right: 0.8%;
+    top: 6.4%;
+    bottom: 0px;
+    transition: width 0.5s;
+    background-color: var(--grey-2);
+    border-radius: 0 0 .5rem 0;
+}
+
+.sheet-resume.open {
+    width: 85vh;
+}
+
+.campaing-content.shrink {
+    margin-right: 85vh;
+}

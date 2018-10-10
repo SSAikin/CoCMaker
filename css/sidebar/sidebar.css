@@ -10,7 +10,7 @@ body {
     height: 100vh;
     float: left;
     transition: margin-left .5s;
-    margin-left: 50px;
+    margin-left: 55px;
     z-index: 999999;
 }
 
@@ -134,7 +134,7 @@ div.item-nav:hover, div.item-nav:hover span, div.item-nav:hover a, a.item-nav:ho
     content: "";
 }
 
-.ico-chat, .ico-sheet, .ico-settings, .ico-book {
+.ico-chat, .ico-sheet, .ico-settings, .ico-book, .ico-camp, .ico-globe, .ico-die-six, .ico-bookmark, .ico-fire {
     display: block;
     float: left;
     padding: 5px 5px 5px 5px;
@@ -145,7 +145,7 @@ div.item-nav:hover, div.item-nav:hover span, div.item-nav:hover a, a.item-nav:ho
     text-align: center;
 }
 
-.item-nav.selected > .ico-chat, .item-nav.selected > .ico-sheet, .item-nav.selected > .ico-settings, .item-nav.selected > .ico-book {
+.item-nav.selected > .ico-chat, .item-nav.selected > .ico-sheet, .item-nav.selected > .ico-settings, .item-nav.selected > .ico-book, .item-nav.selected > .ico-camp {
     background-color: var(--base);
 }
 

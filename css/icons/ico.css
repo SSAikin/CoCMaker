@@ -63,6 +63,7 @@
   position: relative;
   bottom: -6px;
 }
+
 .ico-settings:after {
   content: "\67";
   position: relative;
@@ -71,6 +72,37 @@
 
 .ico-book:after {
   content: "\69";
+  position: relative;
+  bottom: -4px;
+}
+
+.ico-camp:after {
+    content: "\68";
+    position: relative;
+    bottom: -4px;
+    font-size: 25px;
+}
+
+.ico-die-six:after {
+  content: "\6a";
+  position: relative;
+  bottom: -4px;
+}
+
+.ico-globe:after {
+  content: "\6b";
+  position: relative;
+  bottom: -4px;
+}
+
+.ico-bookmark:after {
+  content: "\6c";
+  position: relative;
+  bottom: -4px;
+}
+
+.ico-fire:after {
+  content: "\6d";
   position: relative;
   bottom: -4px;
 }
