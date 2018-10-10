@@ -1,5 +1,5 @@
 .sheet-resume {
-    height: 91%;
+    height: 91.2%;
     width: 0;
     position: fixed;
     right: 0.8%;
@@ -21,4 +21,5 @@
 .campaing-content {
     height: 95%;
     transition: 0.5s;
+    overflow-y: scroll;
 }
