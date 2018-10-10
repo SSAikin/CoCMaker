@@ -1,123 +1,9 @@
-body {
-    margin: 0px;
-    overflow-x: hidden;
-}
-
-.for-hover-side {
-    position: fixed;
-    display: inline-block;
-    width: 20px;
-    height: 100vh;
-    float: left;
-    transition: margin-left .5s;
-    margin-left: 55px;
-    z-index: 999999;
-}
-
-.button-open-sidebar {
-    width: 20px;
-    height: 40px;
-    background-color: var(--base);
-    border-bottom-right-radius: 100px;
-    border-top-right-radius: 100px;
-    border: 0px solid var(--base);
-    border-left: 0;
-    text-align: center;
-    padding-left: 0px;
-    font-size: 14px;
-    color: var(--letter-color);
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    cursor: pointer;
-    float: left;
-    position: fixed;
-    top: 40%;
-    transition: .5s;
-    z-index: 999999;
-}
-
-.button-open-sidebar:hover {
-    color: var(--white);
-}
-
-.sidenav {
-    height: 100vh; /* 100% Full-height */
-    width: 55px; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: var(--base); /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 15px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    flex: auto;
-}
-
-.item-nav {
-    padding: 5px 5px 5px 5px;
-    text-decoration: none;
-    font-size: 25px;
-    color: var(--letter-color);
-    transition: 0.3s;
-    cursor: pointer;
-    overflow: hidden;
-    max-height: 45px;
-}
-
-.item-nav > a {
-    overflow: hidden;
-    font-size: 25px;
-    text-decoration: none;
-    color: var(--letter-color);
-    position: relative;
-    bottom: -10px;
-    margin-left: 20px;
-}
-
-div.item-nav.selected {
-    background-color: var(--grey-1);
-}
-
-div.item-nav:hover, div.item-nav:hover span, div.item-nav:hover a, a.item-nav:hover {
-    color: var(--white);
-}
-
-.drop-down-content > .item-nav {
-    font-size: 20px;
-    margin-top: 7px;
-}
-
-.drop-down-content > .item-nav.selected {
-    background-color: var(--grey-2);
-}
-
-.drop-down-content {
-    margin: 0px;
-    padding-left: 15px;
-    padding: 0px;
-    max-height: 0;
-    transition: max-height 0.15s ease-out;
-    background-color: var(--grey-2);
-    overflow: hidden;
-}
-
-.drop-down-content.drop-open {
-    max-height: 500px;
-    transition: max-height 0.25s ease-in;
-}
-
-.drop-item {
-    font-size: 16px;
-}
-
-.ico-down-style {
-    position: relative;
-    bottom: -10px;
-    float: right;
-}
-
+@import url("body.css");
+@import url("perfil.css");
+@import url("side_button.css");
+@import url("sidebar_dropdown.css");
+@import url("sidebar_items.css");
+/* rest of the content control */
 .main {
     transition: margin-left .5s;
     margin-left: 55px;
@@ -125,28 +11,6 @@ div.item-nav:hover, div.item-nav:hover span, div.item-nav:hover a, a.item-nav:ho
     overflow-x: hidden;
     flex: auto;
     height: 100vh;
-}
-
-.hide-button {
-    width: 0px;
-    padding: 0px;
-    margin: 0px;
-    content: "";
-}
-
-.ico-chat, .ico-sheet, .ico-settings, .ico-book, .ico-camp, .ico-globe, .ico-die-six, .ico-bookmark, .ico-fire {
-    display: block;
-    float: left;
-    padding: 5px 5px 5px 5px;
-    margin-bottom: 5px;
-    width: 35px;
-    height: 35px;
-    border-radius: 5rem;
-    text-align: center;
-}
-
-.item-nav.selected > .ico-chat, .item-nav.selected > .ico-sheet, .item-nav.selected > .ico-settings, .item-nav.selected > .ico-book, .item-nav.selected > .ico-camp {
-    background-color: var(--base);
 }
 
 @media screen and (max-height: 450px) {

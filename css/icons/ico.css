@@ -106,3 +106,14 @@
   position: relative;
   bottom: -4px;
 }
+
+.ico-chat, .ico-sheet, .ico-settings, .ico-book, .ico-camp, .ico-globe, .ico-die-six, .ico-bookmark, .ico-fire {
+    display: block;
+    float: left;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 5rem;
+    text-align: center;
+}

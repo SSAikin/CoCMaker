@@ -14,15 +14,13 @@
 	--white: #fff;
 }
 
-*:focus {
-    outline: none;
-}
-
-.hide {
-	display: none;
-}
-
 body {
 	background-color: var(--base);
 	display: flex;
+	margin: 0px;
+    overflow-x: hidden;
+}
+
+*:focus {
+    outline: none;
 }

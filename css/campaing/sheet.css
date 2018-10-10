@@ -1,7 +1,4 @@
-.campaing-content {
-    height: 95%;
-    transition: 0.5s;
-}
+@import url("sheet_resume.css");
 
 .new-sheet {
     width: 98%;
@@ -24,25 +21,7 @@
     color: var(--white);
     cursor: pointer;
 }
-.sheet-resume {
-    height: 91%;
-    width: 0;
-    position: fixed;
-    right: 0.8%;
-    top: 6.4%;
-    bottom: 0px;
-    transition: width 0.5s;
-    background-color: var(--grey-2);
-    border-radius: 0 0 .5rem 0;
-}
 
-.sheet-resume.open {
-    width: 85vh;
-}
-
-.campaing-content.shrink {
-    margin-right: 85vh;
-}
 
 .character-image {
     width: 200px;

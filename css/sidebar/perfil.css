@@ -7,7 +7,6 @@
     position: absolute;
     bottom: 8px;
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-
 }
 
 .btn-connect:hover {
@@ -50,18 +49,4 @@
 
 .logged-close > span {
     display: none;
-}
-
-.image {
-    width: 45px;
-    height: 45px;
-    float: left;
-    margin-left: 5px;
-    margin-top: 5px;
-    overflow: hidden;
-    border-radius: 5rem;
-}
-
-.wrap-image {
-    width: 100%;
 }
