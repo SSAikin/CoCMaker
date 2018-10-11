@@ -1,9 +1,9 @@
 .sheet-resume {
-    height: 91.2%;
+    height: 88.6%;
     width: 0;
     position: fixed;
-    right: 0.8%;
-    top: 6.4%;
+    right: 15px;
+    top: 64px;
     bottom: 0px;
     transition: width 0.5s;
     background-color: var(--grey-2);
@@ -22,4 +22,5 @@
     height: 95%;
     transition: 0.5s;
     overflow-y: scroll;
+    overflow-x: hidden;
 }

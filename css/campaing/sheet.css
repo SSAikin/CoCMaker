@@ -42,7 +42,7 @@
 .basic-informations {
     background-color: var(--grey-2);
     margin: auto;
-    flex: 2 0 500px;
+    flex: 2 0 40%;
     height: 200px;
     margin-left: 45px;
     margin-right: 25px;
@@ -58,14 +58,13 @@
     flex-grow: 3;
     flex-shrink: 5;
     width: 750px;
-    height: 45vh;
     margin-left: 45px;
     margin-top: 45px;
     margin-right: 25px;
     border-radius: .5rem;
 }
 
-.fast-informations {
+.equips-informations {
     background-color: var(--grey-2);
     margin: auto;
     flex: 0 1 825px;
@@ -74,21 +73,4 @@
     margin-right: 25px;
     margin-top: 45px;
     border-radius: .5rem;
-}
-
-.abilities {
-    display: flex;
-    width: 97.3%;
-    height: 60vh;
-    background-color: var(--grey-3);
-    border-radius: .5rem;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.campaing-content.shrink > .abilities  {
-    width: 93%;
-    margin-right: 25px;
-    margin-left: 45px;
 }
