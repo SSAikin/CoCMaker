@@ -125,6 +125,7 @@ div.item-nav:hover, div.item-nav:hover span, div.item-nav:hover a, a.item-nav:ho
     overflow-x: hidden;
     flex: auto;
     height: 100vh;
+    overflow-y: hidden;
 }
 
 .hide-button {

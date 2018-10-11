@@ -33,7 +33,7 @@
 
 .logged {
     position: fixed;
-    bottom: 2.5%;
+    bottom: 10px;
     margin-left: 5px;
     background-color: var(--grey-2);
     width: 240px;

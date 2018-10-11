@@ -1,9 +1,14 @@
 .login-box {
     background-color: var(--grey-2);
-    width:  500px;
-    height: 450px;
+    width:  30%;
+    height: 55%;
     position: absolute;
-    top: 25%;
+    top: 20%;
     right: 15%;
     border-radius: .5rem;
+}
+
+.login-form {
+    position: relative;
+    bottom: -20%;
 }
