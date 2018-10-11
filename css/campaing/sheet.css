@@ -1,0 +1,94 @@
+@import url("sheet_resume.css");
+
+.new-sheet {
+    width: 98%;
+    height: 6%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: var(--grey-2);
+    color: var(--letter-color);
+    border-radius: .5rem;
+    font-size: 20px;
+}
+
+.new-sheet > p {
+    margin: 0px;
+    padding-top: 0.8%;
+    padding-left: 20px;
+}
+
+.new-sheet:hover, .new-sheet:hover .new-sheet > p {
+    color: var(--white);
+    cursor: pointer;
+}
+
+.first-line {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.character-image {
+    flex-shrink: 0;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 45px;
+    overflow: hidden;
+    border-radius: 50rem;
+}
+
+.basic-informations {
+    background-color: var(--grey-2);
+    margin: auto;
+    flex: 2 0 500px;
+    height: 200px;
+    margin-left: 45px;
+    margin-right: 25px;
+    margin-top: 45px;
+    margin-bottom: 0;
+    border-radius: .5rem;
+}
+
+.attrs-informations {
+    display: inline-block;
+    background-color: var(--grey-3);
+    margin: auto;
+    flex-grow: 3;
+    flex-shrink: 5;
+    width: 750px;
+    height: 45vh;
+    margin-left: 45px;
+    margin-top: 45px;
+    margin-right: 25px;
+    border-radius: .5rem;
+}
+
+.fast-informations {
+    background-color: var(--grey-2);
+    margin: auto;
+    flex: 0 1 825px;
+    height: 200px;
+    margin-left: 45px;
+    margin-right: 25px;
+    margin-top: 45px;
+    border-radius: .5rem;
+}
+
+.abilities {
+    display: flex;
+    width: 97.3%;
+    height: 60vh;
+    background-color: var(--grey-3);
+    border-radius: .5rem;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.campaing-content.shrink > .abilities  {
+    width: 93%;
+    margin-right: 25px;
+    margin-left: 45px;
+}

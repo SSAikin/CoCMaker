@@ -1,3 +1,21 @@
+.hide {
+	display: none;
+}
+
+.wrap-image {
+    width: 100%;
+}
+
+.image {
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+    border-radius: 5rem;
+}
+
 .ml1 {
     margin-left: 3px;
 }

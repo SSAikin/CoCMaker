@@ -34,7 +34,6 @@
         let dropDowns = this.navbar.getElementsByClassName("drop-down");
         for (let i = 0; i < dropDowns.length; i++) {
             let actual = dropDowns[i];
-            debugger;
             actual.addEventListener("click", setDropDown.bind(this, actual));
         }
     }
