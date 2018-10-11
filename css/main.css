@@ -33,3 +33,17 @@ body {
 *:focus {
     outline: none;
 }
+
+.btn {
+	padding: 10px 15px 10px 15px;
+	border: none;
+	border-radius: .25rem;
+	background-color: var(--theme);
+	color: var(--letter-color);
+	font-size: 22px;
+}
+
+.btn:hover {
+	background-color: var(--darker-theme);
+	cursor: pointer;
+}

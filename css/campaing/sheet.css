@@ -39,6 +39,10 @@
     border-radius: 50rem;
 }
 
+.character-image:hover {
+    cursor: pointer;
+}
+
 .basic-informations {
     background-color: var(--grey-2);
     margin: auto;
