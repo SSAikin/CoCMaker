@@ -4,6 +4,7 @@
 @import url("icons/ico.css");
 @import url("scrollbar.css");
 @import url("utils.css");
+@import url("form/form.css");
 
 :root {
 	font-family: Arial, Helvetica, sans-serif !important;

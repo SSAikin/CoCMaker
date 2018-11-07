@@ -3,7 +3,28 @@
 @import url("side_button.css");
 @import url("sidebar_dropdown.css");
 @import url("sidebar_items.css");
+@import url("../icons/ico.css");
 /* rest of the content control */
+:root {
+	font-family: Arial, Helvetica, sans-serif !important;
+	--base: #1e2124;
+
+	--grey-1: #282b30;
+	--grey-2: #36393e;
+	--grey-3: #424549;
+	--grey-4: #63676d;
+	--grey-5: #707479;
+
+	--theme: #394e75;
+	--darker-theme: #2c3b56;
+
+	--letter-color: #adacac;
+
+	--white: #fff;
+}
+.hide {
+	display: none;
+}
 .main {
     transition: margin-left .5s;
     margin-left: 55px;

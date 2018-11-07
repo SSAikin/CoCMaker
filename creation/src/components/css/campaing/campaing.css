@@ -9,7 +9,7 @@
     left: 0px;
     margin-right: 15px;
     background-color: var(--grey-1);
-    border-radius: 0rem .5rem .5rem .5rem;
+    border-radius: .5rem .5rem .5rem .5rem;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;

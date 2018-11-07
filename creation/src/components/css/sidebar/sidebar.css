@@ -1,0 +1,28 @@
+@import url("body.css");
+@import url("perfil.css");
+@import url("side_button.css");
+@import url("sidebar_items.css");
+
+.main {
+    transition: margin-left .5s;
+    margin-left: 55px;
+    right: 0;
+    height: 100vh;
+    flex: 1 1 auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    bottom:0;
+  top:0;
+  left:0;
+  right:0;
+}
+
+.main.open {
+    margin-left: 250px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

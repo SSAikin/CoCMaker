@@ -1,11 +1,11 @@
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 6px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: var(--grey-1);
+    background: var(--base);
 }
 
 /* Handle */
